@@ -35,6 +35,6 @@ public class Car{
     return Math.round(gallonsUsed * 100)/100.0;
   }
   public String toString(){
-    return carName + " averaged " + (Math.round(gallonsUsed * 100)/100.0) + "m/g";
+    return carName + " averaged " + (Math.round(gallonsUsed * 100)/100.0) + " m/g";
   }
 }
